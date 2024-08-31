@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-codify Task 4</title>
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="./assets/vendors/bootstrap/bootstrap.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="container mt-5 p-4">
+        <div class="row justify-content-center">
+            <div class="col-12 mb-4">
+                <input type="text" id="input" class="form-control py-4 text-end">
+            </div>
+            <div id="keys" class="col-12">
+                <div class="row g-2">
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-warning fw-bold w-100 py-3 circle" onclick="appendToDisplay('+')">+</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-secondary fw-bold w-100 py-3 circle" onclick="appendToDisplay('7')">7</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-secondary fw-bold w-100 py-3 circle" onclick="appendToDisplay('8')">8</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-secondary fw-bold w-100 py-3 circle" onclick="appendToDisplay('9')">9</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-warning fw-bold w-100 py-3 circle" onclick="appendToDisplay('-')">-</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-secondary fw-bold w-100 py-3 circle" onclick="appendToDisplay('4')">4</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-secondary fw-bold w-100 py-3 circle" onclick="appendToDisplay('5')">5</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-secondary fw-bold w-100 py-3 circle" onclick="appendToDisplay('6')">6</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-warning fw-bold w-100 py-3 circle" onclick="appendToDisplay('*')">*</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-secondary fw-bold w-100 py-3 circle" onclick="appendToDisplay('1')">1</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-secondary fw-bold w-100 py-3 circle" onclick="appendToDisplay('2')">2</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-secondary fw-bold w-100 py-3 circle" onclick="appendToDisplay('3')">3</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-warning fw-bold w-100 py-3 circle" onclick="appendToDisplay('/')">/</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-secondary fw-bold w-100 py-3 circle" onclick="appendToDisplay('0')">0</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-secondary fw-bold w-100 py-3 circle" onclick="appendToDisplay('.')">.</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <button class="btn btn-secondary fw-bold w-100 py-3 circle" onclick="calculate()">=</button>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-warning fw-bold w-100 py-3 circle" onclick="clearDisplay()">C</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Js -->
+    <script src="./assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- Jquery  -->
+    <script src="./assets/vendors/jquery/jquery-3.7.1.min.js"></script>
+    <!-- JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

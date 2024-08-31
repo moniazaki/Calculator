@@ -1,0 +1,29 @@
+.container {
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 400px;
+}
+
+.form-control {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+button {
+    border-radius: 50px !important;
+    border: none !important;
+    cursor: pointer !important;
+    font-size: 1.25rem;
+}
+
+
+
+#keys .col-6 {
+    margin-bottom: 10px;
+}
+
+#keys .col-12 {
+    margin-top: 10px;
+}
